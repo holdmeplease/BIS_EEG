@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+from scipy.fft import fft
+from scipy.signal import blackman, hamming, detrend
+
 import antropy as ant
 import mne_connectivity
 
